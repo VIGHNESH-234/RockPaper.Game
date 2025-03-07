@@ -1,0 +1,126 @@
+/* General Reset */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #6a1b9a;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main Game Area */
+  .main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: 20px 0;
+  }
+  
+  /* Choices Section */
+  .choices {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .choice {
+    height: 120px;
+    width: 120px;
+    background-color: #e3f2fd;
+    border: 2px solid #64b5f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .choice:hover {
+    background-color: #bbdefb;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Scoreboard Section */
+  .scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .score {
+    text-align: center;
+  }
+  
+  .score p:first-child {
+    font-size: 2rem;
+    color: #6a1b9a;
+  }
+  
+  /* Result Section */
+  .result {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #result-text {
+    background-color: #e3f2fd;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Reset Button */
+  #reset {
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  #reset:hover {
+    background-color: #4a148c;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+  }
